@@ -640,6 +640,14 @@ margin: 0 auto;
     }
 }
 @media screen and (max-width:720px){
+  header .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header .logo{
+    margin: 0 auto;
+}
     
     .caption h1{
         font-size:32px;
